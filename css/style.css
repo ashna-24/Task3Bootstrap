@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundimg{
+    height: 950px;
+    object-fit: cover;
+}
+
+.crypto{
+    top: 25px;
+    border-bottom: 1px solid #8d8d8d;
+}
+
+.navbartext{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.topcrypto{
+    top: 200px;
+}
+
+.icolanding{
+    font-weight: 600;
+    color: #f3ba40;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.project{
+    line-height: 58px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.description{
+    color: #cccccc;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    max-width: 490px;
+}
+
+.ends{
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 40px; 
+}
+
+.weekdata{
+    margin: 10px 0px 20px 0px;
+    color: #ffffff;
+}
+
+.week{
+    border-right: 1px solid #cccccc;
+}
+
+.zero{
+    font-size: 36px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.zerodata{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.8);
+}
+
+.token{
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #f3ba40;
+    color: #353535;
+    border: none;
+    box-shadow: 0 6px 40px rgb(0 0 0 / 25%);
+    padding: 16px 36px;
+    margin-right: 40px;
+}
+
+.token:hover{
+    background-color: #ffd83c;
+}
+
+.whitepaper{
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 2px solid #cccccc;
+    background-color: transparent;
+    color: #cccccc;
+    box-shadow: 0 6px 40px rgb(0 0 0 / 25%);
+    padding: 16px 36px;
+    margin-right: 40px;    
+}
+
+.whitepaper:hover{
+    background-color: rgba(255,255,255,0);
+    color: #f3ba40;
+    border: 2px solid #f3ba40;
+}
+
+.button{
+    margin-top: 40px; 
+}
+
+.tokenprice{
+    color: #bebebe;
+    font-size: 21px;
+    margin: 40px 0px;
+}
+
+.part1{
+    padding: 90px 0px;
+}
+
+.setone{
+    background-color: #353535;
+}
+
+.mainrowset{
+    margin-left: 40px;
+}
+
+.setpartone{
+    width: 390px;
+}
+
+.text{
+    top: 150px;
+    left: 75px;
+}
+
+.texttop{
+    font-weight: 600;
+    font-size: 14px;
+    color: #f3ba40;
+}
+
+.textset{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+.rowsettwo{
+    top: 0;
+    right: 0;
+}
+
+.smartp{
+    line-height: 1.8;
+    color: #cccccc;
+    width: 270px;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.smart{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.wallet{
+    background-color: #242424; 
+   /*  margin-bottom: 40px; */
+    padding: 70px 50px;
+    border-radius: 8px;
+    height: 395px;
+   /*  margin-right: 55px; */
+}
+
+
+@media  screen and (max-width:320px) and (min-width: 150px){
+    .project{
+        font-size: 35px;
+    }
+}
+
+@media  screen and (max-width:768px) and (min-width: 321px){
+    .backgroundimg{
+        height: 1015px;
+    }
+}
