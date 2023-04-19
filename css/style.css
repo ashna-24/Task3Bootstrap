@@ -158,7 +158,6 @@
 .smartp{
     line-height: 1.8;
     color: #cccccc;
-    width: 270px;
     margin-top: 15px;
     font-weight: 400;
     font-size: 16px;
@@ -173,22 +172,615 @@
 
 .wallet{
     background-color: #242424; 
-   /*  margin-bottom: 40px; */
     padding: 70px 50px;
     border-radius: 8px;
     height: 395px;
-   /*  margin-right: 55px; */
 }
 
+.settwo{
+    background-color: #242424;
+}
+
+.laptop{
+    width: 650px;
+}
+
+.tokendistribution{
+    padding: 0px 160px 0px 140px;
+}
+
+.tokn{
+    line-height: 36px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.toknp{
+    line-height: 1.8;
+    color: #cccccc;
+    width: 295px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.bold{
+    margin-bottom: 40px;
+}
+
+.community{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.percentage{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.toknspan{   
+    color: #f3ba40;
+}
+
+.line{
+    height: 5px;
+    width: 77%;
+    top: -3px;
+    border-radius: 4px;
+    background: linear-gradient( 90deg, #f4d157, #ea9322 );
+}
+
+.devepline{
+    height: 5px;
+    width: 65%;
+    top: -3px;
+    border-radius: 4px;
+    background: linear-gradient( 90deg, #f4d157, #ea9322 );
+}
+
+.linetoken{
+    height: 5px;
+    width: 88%;
+    top: -3px;
+    border-radius: 4px;
+    background: linear-gradient( 90deg, #f4d157, #ea9322 );
+}
+
+.marketline{
+    height: 5px;
+    width: 10%;
+    top: -3px;
+    border-radius: 4px;
+    background: linear-gradient( 90deg, #f4d157, #ea9322 );
+}
+
+.roadmap{
+    line-height: 36px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-size: 30px; 
+    padding-left: 160px;
+    font-weight: 700;
+}
+
+.padding{
+    padding-left: 160px;
+}
+
+.research{
+    margin-bottom: 7px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.roadmapp{
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.roadp{
+    color: #cccccc;
+    line-height: 1.8;
+    width: 275px;
+    font-size: 15px;
+}
+
+.amazing{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #f3ba40; 
+}
+
+.team{
+    line-height: 36px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.name{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+
+.post{
+    color: #f3ba40;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.aboutname{
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 400;
+    color: #cccccc;
+}
+
+.layer3{
+    width: 90px;
+    height: 90px;
+}
+
+.nativecoin{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    color: #ffffff;
+    width: 125px;
+}
+
+.news{
+    color: #8d8d8d;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    padding-right: 35px;
+}
+
+.para{
+    color: #cccccc;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bottom{
+    padding: 85px 0px;
+}
+
+.quotes{
+    padding: 30px 0px;
+    border-bottom: 1px solid rgb(101,101,101);
+}
+
+.left{
+    border-bottom: 1px solid #8d8d8d;
+}
+
+.publish{
+    font-size: 36px;
+}
+
+.partners{
+    color: #f3ba40;
+    font-size: 14px;
+}
+
+.width{
+    line-height: 1.8;
+    color: #cccccc; 
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.bottom1{
+    padding: 16px;
+    margin-right: 40px; 
+}
+
+.bottom2{
+    padding: 10px;
+    margin-right: 139px;
+}
+
+.bottom3{
+    margin-right: 85px;
+}
+
+.bottom4{
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.bottom5{
+    padding: 16px;
+} 
+
+.news{
+    color: #8d8d8d;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.number{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    min-width: 70px;
+    background-color: #f4f4f4;
+    border-radius: 100px; 
+}
+
+.one{
+    top: 0;
+    right: 30px;
+    padding: 1px 7px;
+    color: #fff;
+    background-color: #f3ba40;
+    border-radius: 11px;
+    font-size: 13px;
+    font-weight: 700;
+    box-shadow: 0px 2px 3px 1px rgb(0 0 0 / 12%);
+}
+
+.month{
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    color: #cccccc;
+    margin-top: 8px; 
+}
+
+.newshead{
+    font-size: 20px; 
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 16px;
+}
+
+.newshead:hover{
+    color: #f3ba40; 
+}
+
+.newspara{
+    line-height: 1.8;
+    color: #cccccc;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.newsdata{
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+}
+
+.salestag{
+    color: #cccccc;
+    font-size: 13px;
+}
+
+.backimage{
+    height: 1200px;
+    object-fit: cover;
+}
+
+.bottomform{
+    top: 20px;
+}
+
+.latest{
+    line-height: 36px;
+    padding: 20px 405px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.latestpara{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 380px;
+    color: #e2e2e2;
+    margin-bottom: 30px;
+}
+
+.emailinput{
+    background-color: white;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: 1px solid #e3e3e3;
+    font-style: italic;
+    font-size: 15px;
+    width: 450px;
+    color: #8d8d8d;
+    margin: 0px 12px 10px 0px;
+}
+
+.subscribe{
+    border-radius: 10px;
+    padding: 13px 30px;
+    color: #000000;
+    background-color: #f3ba40;
+    color: #353535;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.follow{
+    margin: 25px 0px 30px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.followicons{
+    margin: 0px 0px 100px 490px;
+}
+
+.iconset{
+    border-radius: 100px;
+    border: 1px solid rgba(183,183,183,.53);
+    width: 54px;
+    height: 54px;
+    text-align: center;
+    margin-right: 12px;
+}
+
+.iconset:hover{
+    background-color:#f3ba40;
+}
+
+.data{
+    background-color: #353535;    
+    border-radius: 10px;
+}
+
+.dataset1{
+    padding: 90px 80px 90px 90px;
+    box-shadow: 0px 15px 45px -9px rgb(0 0 0 / 25%);
+}
+
+.dates{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 20px;
+}
+
+.dataset2{
+    padding: 80px 60px;
+}
+
+.datep{
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 400;
+    color: #cccccc;
+}
+
+.onetext{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.onepara{
+    line-height: 1.8;
+    margin: 0px 0px 10px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px 45px 15px 0px;
+    color: #bebebe;
+}
+
+.sales{
+    border-bottom: 1px solid #8d8d8d;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+}
+
+.salespara{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 2px;
+    margin-bottom: 8px;
+}
+
+.salespara:hover{
+    color: #ea9322;
+}
+
+.salestext{
+    color: #cccccc;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.sidenavbar{
+    box-shadow: 0px 6px 13px 5px rgb(0 0 0 / 12%);
+    position: fixed !important;
+    z-index: 2;
+    right: 10px;
+    top: 150px;
+    border-radius: 7px;
+}
+
+.iconone{
+    padding: 6px 5px;
+    border-bottom: 1px solid #bebebe;
+}
+
+.icontwo{
+    padding: 6px 5px;
+}
+
+#iconid:hover{
+    color: #f3ba40 !important;
+    cursor: pointer;
+}
+
+.iconhover:hover{
+    background-color: #f3f5fd;
+}
+
+.contactset{
+    margin-bottom: 15px;
+    color: #bebebe;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footerbottom{
+    font-size: 16px;
+    color: #bebebe;
+    padding: 30px 0px;
+    background-color: #353535;
+}
+
+.boldtext:hover{
+    color: #ea9322;
+}
+
+.bottomimg{
+    bottom: 20px;
+    right: 30px;
+    z-index: 2;
+    position: fixed !important;
+}
+
+.border{
+    border-radius: 25px;
+}
 
 @media  screen and (max-width:320px) and (min-width: 150px){
     .project{
         font-size: 35px;
     }
+
+    .tokendistribution {
+        padding: 0px;
+    }
+
+    .bottom4, .bottom5, .bottom3, .bottom2{
+        display: none;
+    }
+
+    .roadmap{
+        padding-left: 10px;
+    }
+
+    .roadp{
+        width: auto;
+    }
+
+    .padding{
+        padding-left: 0px;
+    }
+
+    .latest{
+        padding: 0px;
+    }
+
+    .latestpara{
+        padding: 0px;
+    }
+
+    .emailinput{
+        width: auto;
+    }
+
+    .followicons{
+        margin: 0px;
+    }
+
 }
 
 @media  screen and (max-width:768px) and (min-width: 321px){
     .backgroundimg{
         height: 1015px;
+    }
+
+    .textset{
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .wallet {
+        padding: 30px 50px;
+        height: 210px;
+    }
+
+    .tokendistribution{
+        padding: 0px;
+    }
+
+    .toknp{
+        width: auto;
+    }
+
+    .roadmap{
+        padding-left:30px;
+    }
+
+    .roadp {
+        width: 368px;
+    }
+
+    .latest {
+        padding: 20px 36px;
+        font-size: 32px;
+    }
+
+    .followicons {
+        margin: 0px 0px 100px 190px;
+    }
+
+    .latestpara {
+        font-size: 17px;
+        padding: 0px 53px;
+    }
+
+    .bottom4, .bottom5{
+        display: none;
+    }
+
+    .backimage {
+        height: 1860px;
+    }
+}
+
+@media  screen and (max-width:1024px) and (min-width: 769px){
+    .tokendistribution{
+        padding: 0px 70px 0px 50px;
+    }
+
+    .padding {
+        padding-left: 120px;
+    }
+
+    .roadp {
+        width: 190px;
+    }
+
+    .bottom4{
+        display: none;
+    }
+
+    .bottom5{
+        display: none;
     }
 }

@@ -7,6 +7,8 @@
         <title>Jevelin Theme Crypto Demo - Just another Jevelin WordPress Theme site</title>
         <link rel="icon" href="assets/title.png">
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
         <link rel="stylesheet" href="css/style.css">
@@ -16,7 +18,45 @@
         <script src="assets/bootstrap.js"></script>     
     </head>
     <body>
-        <div class="mainbody">
+        <div class="mainbody position-relative">
+            
+                <div class="position-absolute bg-light sidenavbar">
+                    <div class="iconone">
+                        <div class="iconhover">
+                            <i class="material-icons" id="fixedicon" style="font-size: 25px; color: #bebebe; padding: 10px;">layers</i>
+                        </div>
+                    </div>
+                    <div class="iconone">
+                        <div class="iconhover">
+                            <i class="fas fa-glasses" id="fixedicon" style="font-size: 25px; color: #bebebe; padding: 10px;"></i>
+                        </div>
+                    </div>
+                    <div class="iconone">
+                        <div class="iconhover">
+                            <i class="fas fa-shopping-bag" id="fixedicon" style="font-size: 25px; color: #bebebe; padding: 10px;"></i>
+                        </div>
+                    </div>
+                    <div class="iconone">
+                        <div class="iconhover">
+                            <i class="far fa-question-circle" id="fixedicon" style="font-size: 25px; color: #bebebe; padding: 10px;"></i>
+                        </div>
+                    </div>
+                    <div class="iconone">
+                        <div class="iconhover">
+                            <i class="fa fa-support" id="fixedicon" style="font-size: 25px; color: #bebebe; padding: 10px;"></i>
+                        </div>
+                    </div>
+                    <div class="icontwo">
+                        <div class="iconhover">
+                            <i class="far fa-envelope" id="fixedicon" style="font-size: 25px; color: #bebebe; padding: 10px;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="position-absolute bottomimg">
+                    <div class="border pointer">
+                        <i class="fas fa-chevron-up" id="chevronup" style="font-size: 25px; color: #bebebe; padding: 11px 12px;"></i>
+                    </div>
+                </div>
             <div class="position-relative">
                 <div>
                     <img src="assets/Layer-01.jpg" src="Not found" class="w-100 backgroundimg">
@@ -32,7 +72,7 @@
                             <nav class="navbar navbar-expand-lg text-light">
                                 <div class="container-fluid">
                                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nitrocollapse">
-                                        <span class="navbar-toggler-icon"></span>
+                                        <span class="navbar-toggler-icon text-light"></span>
                                     </button>
                                     <div class="offcanvas offcanvas-start w-100" id="nitrocollapse">
                                         <div class="offcanvas-body">
@@ -140,7 +180,7 @@
                         <div class="col-md-4 position-relative">
                             <div class="mainrowset mx-2 mt-5 mb-3">
                                 <div class="setpartone">
-                                    <i class='fas fa-glasses' id="glassicon" style="font-size: 220px; color:#534b38"></i>
+                                    <i class='fas fa-glasses' id="glassicon" style="font-size: 210px; color:#534b38"></i>
                                 </div>
                                 <div class="position-absolute text">
                                     <h1 class="texttop">GET TO KNOW</h1>
@@ -151,19 +191,19 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="wallet mx-2 mt-5 mb-3 position-relative">
+                            <div class="wallet mx-3 mt-5 mb-3 position-relative">
                                 <div class="rowsettwo position-absolute">
                                     <img src="assets/walllet_icon2.png" alt="not found">
                                 </div>
                                 <div class="position-absolute">
-                                    <div>
-                                        <i class='fas fa-wallet' id="iconanimation" style="font-size: 50px; color: #f3ba40; margin:0px 0px 20px 110px;"></i> 
+                                    <div class="text-center me-5">
+                                        <i class='fas fa-wallet' id="iconanimation" style="font-size: 50px; color: #f3ba40;"></i> 
                                     </div>
                                     <div class="text-center">
-                                        <h1 class="smart fweight400">
+                                        <h1 class="smart me-5">
                                             SMART WALLET
                                         </h1>
-                                        <p class="smartp fweight400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et lobortis metus. Proin vel mauris pulvinar, lacinia neque sed, posuere sem aliquet.</p>
+                                        <p class="smartp px-5 me-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et lobortis metus. Proin vel mauris pulvinar, lacinia neque sed, posuere sem aliquet.</p>
                                     </div>
                                 </div>
                             </div>
@@ -174,14 +214,14 @@
                                     <img src="assets/arrow.png" alt="not found" class="settwoimg">
                                 </div>
                                 <div class="position-absolute">
-                                    <div>
-                                        <i class='fas fa-undo' id="iconanimation" style="font-size: 50px; color: #f3ba40; margin:0px 0px 20px 110px;"></i> 
+                                    <div class="text-center me-5">
+                                        <i class='fas fa-undo' id="iconanimation" style="font-size: 50px; color: #f3ba40;"></i> 
                                     </div>
                                     <div class="text-center">
-                                        <h1 class="smart fweight400">
+                                        <h1 class="smart me-5">
                                             INSTANT PAYOUTS
                                         </h1>
-                                        <p class="smartp fweight400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et lobortis metus. Proin vel mauris pulvinar, lacinia neque sed, posuere sem aliquet.</p>
+                                        <p class="smartp px-5 me-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et lobortis metus. Proin vel mauris pulvinar, lacinia neque sed, posuere sem aliquet.</p>
                                     </div>
                                 </div>
                             </div>
@@ -192,32 +232,32 @@
                                     <img src="assets/nosign.png" alt="not found" class="settwoimg">
                                 </div>
                                 <div class="position-absolute">
-                                    <div>
-                                        <i class='fas fa-ban' id="iconanimation" style="font-size: 50px; color: #f4d157; margin:0px 0px 20px 110px;"></i> 
+                                    <div class="text-center me-5">
+                                        <i class='fas fa-ban' id="iconanimation" style="font-size: 50px; color: #f4d157;"></i> 
                                     </div>
                                     <div class="text-center">
-                                        <h1 class="smart fweight400">
+                                        <h1 class="smart me-5">
                                             NO DEPOSTS
                                         </h1>
-                                        <p class="smartp fweight400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et lobortis metus. Proin vel mauris pulvinar, lacinia neque sed, posuere sem aliquet.</p>
+                                        <p class="smartp px-5 me-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et lobortis metus. Proin vel mauris pulvinar, lacinia neque sed, posuere sem aliquet.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="wallet mx-2 mt-5 mb-3 position-relative">
+                            <div class="wallet mx-3 mt-5 mb-3 position-relative">
                                 <div class="rowsettwo position-absolute">
                                     <img src="assets/globe.png" alt="not found" class="settwoimg">
                                 </div>
                                 <div class="position-absolute">
-                                    <div>
-                                        <i class='fas fa-globe' id="iconanimation" style="font-size: 50px; color: #f4d157; margin:0px 0px 20px 110px;"></i> 
+                                    <div class="text-center me-5">
+                                        <i class='fas fa-globe' id="iconanimation" style="font-size: 50px; color: #f4d157;"></i> 
                                     </div>
                                     <div class="text-center">
-                                        <h1 class="smart">
+                                        <h1 class="smart me-5">
                                             GLOBAL
                                         </h1>
-                                        <p class="smartp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et lobortis metus. Proin vel mauris pulvinar, lacinia neque sed, posuere sem aliquet.</p>
+                                        <p class="smartp px-5 me-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et lobortis metus. Proin vel mauris pulvinar, lacinia neque sed, posuere sem aliquet.</p>
                                     </div>
                                 </div>
                             </div>
@@ -228,20 +268,830 @@
                                     <img src="assets/check.png" alt="not found" class="settwoimg">
                                 </div>
                                 <div class="position-absolute">
-                                    <div >
-                                        <i class='far fa-check-circle' id="iconanimation" style="font-size: 50px; color: #f4d157; margin:0px 0px 20px 110px;"></i> 
+                                    <div class="text-center me-5">
+                                        <i class='far fa-check-circle' id="iconanimation" style="font-size: 50px; color: #f4d157;"></i> 
                                     </div>
                                     <div class="text-center">
-                                        <h1 class="smart">
+                                        <h1 class="smart me-5">
                                             SIMPLE
                                         </h1>
-                                        <p class="smartp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et lobortis metus. Proin vel mauris pulvinar, lacinia neque sed, posuere sem aliquet.</p>
+                                        <p class="smartp px-5 me-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et lobortis metus. Proin vel mauris pulvinar, lacinia neque sed, posuere sem aliquet.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="part1 settwo">
+                <div class="container-fluid">
+                    <div class="row mb-5 pb-5">
+                        <div class="col-md-6">
+                            <img src="assets/Laptop-Pro1.png" alt="Not found" class="w-100">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="tokendistribution mx-sm-5">
+                                <h3 class="tokn fweight700">Token Distribution</h3>
+                                <p class="toknp  fsize15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida lacinia tellus, vitae condimentum purus tristique sed.</p>
+                                <p class="toknp  bold fsize15"><span class="toknspan fsize15">Integer at lorem</span> eget diam facilisis lacinia ac id massa. Nulla facilisi. Duis ornare facilisis ex non porttitor. Suspendisse potenti. Sed luctus suscipit tincidunt. Ornare facilisis ex non porttitor. Suspendisse potenti. Sed luctus suscipit tincidunt.</p>
+                                <div class="mediarow">
+                                    <div class="row">
+                                        <div class="col-md-8 col-sm-8 col-8 col-xl-8">
+                                            <h3 class="community">
+                                                Community 
+                                            </h3>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4 col-4 col-xl-4">
+                                            <h3 class="percentage text-right text-light">
+                                                77%
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="position-relative">
+                                        <div class="progress" style="height: 1px; margin-top: 12px; background-color: #cccccc;">
+                                            <div class="progress-bar" role="progressbar" style="width: 77%;" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="position-absolute line mb-4">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mediarow">
+                                    <div class="row rowsset">
+                                        <div class="col-md-8 col-sm-8 col-8 col-xl-8">
+                                            <h3 class="community">
+                                                Team and developers 
+                                            </h3>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4 col-4 col-xl-4">
+                                            <h3 class="percentage text-right text-light">
+                                                65%
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="position-relative">
+                                        <div class="progress" style="height: 1px; margin-top: 12px; background-color: #cccccc;">
+                                            <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="position-absolute devepline mb-4">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mediarow">
+                                    <div class="row rowsset">
+                                        <div class="col-md-8 col-sm-8 col-8 col-xl-8">
+                                            <h3 class="community">
+                                                Token Sale and Pre-Sale 
+                                            </h3>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4 col-4 col-xl-4">
+                                            <h3 class="percentage text-right text-light">
+                                                88%
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="position-relative">
+                                        <div class="progress" style="height: 1px; margin-top: 12px; background-color: #cccccc;">
+                                            <div class="progress-bar" role="progressbar" style="width: 88%;" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="position-absolute linetoken mb-4">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mediarow">
+                                    <div class="row rowsset">
+                                        <div class="col-md-8 col-sm-8 col-8 col-xl-8">
+                                            <h3 class="community">
+                                                Marketing 
+                                            </h3>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4 col-4 col-xl-4">
+                                            <h3 class="percentage text-right text-light">
+                                                10%
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="position-relative">
+                                        <div class="progress" style="height: 1px; margin-top: 12px; background-color: #cccccc;">
+                                            <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="position-absolute marketline mb-4">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5 pt-5">
+                        <div class="col-md-6">
+                            <h1 class="roadmap">Roadmap</h1>
+                            <div class="padding ms-5">
+                                <div class="mb-4">
+                                    <div class="d-flex">
+                                        <div class="me-5">
+                                            <i class='far fa-check-circle' id="checkcircle" style="font-size: 33px; color: #f4d157;"></i> 
+                                        </div>
+                                        <div>
+                                            <h3 class="research">Research & development</h3>
+                                            <p class="roadmapp">
+                                                February, 2017
+                                            </p>
+                                            <p class="roadp"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum sed nibh sit amet accumsan. Suspendisse posuere congue ante quis fringilla. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <div class="d-flex">
+                                        <div class="me-5">
+                                            <i class='far fa-check-circle' id="checkcircle" style="font-size: 33px; color: #f4d157;"></i> 
+                                        </div>
+                                        <div>
+                                            <h3 class="research">Project</h3>
+                                            <p class="roadmapp">
+                                                July, 2017
+                                            </p>
+                                            <p class="roadp"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum sed nibh sit amet accumsan. Suspendisse posuere congue ante quis fringilla. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <div class="d-flex">
+                                        <div class="me-5">
+                                            <i class='far fa-check-circle' id="checkcircle" style="font-size: 33px; color: #f4d157;"></i> 
+                                        </div>
+                                        <div>
+                                            <h3 class="research">Commercial lounch</h3>
+                                            <p class="roadmapp">
+                                                January, 2018
+                                            </p>
+                                            <p class="roadp"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum sed nibh sit amet accumsan. Suspendisse posuere congue ante quis fringilla. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <div class="d-flex">
+                                        <div class="me-5">
+                                            <i class='far fa-clock' id="checkcircle" style="font-size: 33px; color: #bebebe;"></i> 
+                                        </div>
+                                        <div>
+                                            <h3 class="research">First clients onboarded</h3>
+                                            <p class="roadmapp">
+                                                September, 2018
+                                            </p>
+                                            <p class="roadp"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum sed nibh sit amet accumsan. Suspendisse posuere congue ante quis fringilla. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <div class="d-flex">
+                                        <div class="me-5">
+                                            <i class='far fa-clock' id="checkcircle" style="font-size: 33px; color: #bebebe;"></i> 
+                                        </div>
+                                        <div>
+                                            <h3 class="research">Global market expansion</h3>
+                                            <p class="roadmapp">
+                                                March, 2019
+                                            </p>
+                                            <p class="roadp"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum sed nibh sit amet accumsan. Suspendisse posuere congue ante quis fringilla. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/Group.png" alt="Not found" class="w-100 mt-5 pt-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="part1 setone">
+                <div class="container-fluid px-5">
+                    <div class="text-center">
+                        <h1 class="amazing">OUR AMAZING</h1>
+                        <h2 class="team">Team Of Experts</h2>
+                    </div>
+                    <div class="row mb-5 pb-5">
+                        <div class="col-lg-4">
+                            <div class="w-100 px-5 mb-sm-5">
+                                <div class="pointer">
+                                    <img src="assets/Layer1.jpg" src="Not found" class="w-100 mb-5">
+                                </div>
+                                <div>
+                                    <h1 class="name fweight700">Aria saal</h1>
+                                    <h2 class="post fweight700">CO_FOUNDER & CEO</h2>
+                                    <p class="aboutname text-justify">Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras ornare, augue sit amet varius mollis, lacus dui laoreet </p>
+                                </div>
+                                <div class="d-flex">
+                                    <i class='fab fa-twitter' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                    <i class='fab fa-facebook-f' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                    <i class='fab fa-linkedin-in' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="w-100 px-5 mb-sm-5">
+                                <div class=" pointer">
+                                    <img src="assets/Layer2.jpg" src="Not found" class="w-100 mb-5">
+                                </div>
+                                <div>
+                                    <h1 class="name fweight700">Amanda Rieker</h1>
+                                    <h2 class="post fweight700">
+                                        CO_FOUNDER & CTO 
+                                    </h2>
+                                    <p class="aboutname text-justify">Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras ornare, augue sit amet varius mollis, lacus dui laoreet </p>
+                                </div>
+                                <div class="d-flex">
+                                    <i class='fab fa-twitter' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                    <i class='fab fa-facebook-f' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                    <i class='fab fa-linkedin-in' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="w-100 px-5 mb-sm-5">
+                                <div class=" pointer">
+                                    <img src="assets/Layer3.jpg" src="Not found" class="w-100 mb-5">
+                                </div>
+                                <div>
+                                    <h1 class="name fweight700">Jeremy Klark</h1>
+                                    <h2 class="post fweight700">DEVELOPMENT LEAD </h2>
+                                    <p class="aboutname text-justify">Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras ornare, augue sit amet varius mollis, lacus dui laoreet </p>
+                                </div>
+                                <div class="d-flex">
+                                    <i class='fab fa-twitter' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                    <i class='fab fa-facebook-f' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                    <i class='fab fa-linkedin-in' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="w-100 px-5 mt-5">
+                                <div class=" pointer">
+                                    <img src="assets/Layer4.jpg" src="Not found" class="w-100 mb-5">
+                                </div>
+                                <div>
+                                    <h1 class="name fweight700">Miranda Sinclare</h1>
+                                    <h2 class="post fweight700">STRATEGY & MARKETING</h2>
+                                    <p class="aboutname text-justify">Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras ornare, augue sit amet varius mollis, lacus dui laoreet </p>
+                                </div>
+                                <div class="d-flex">
+                                    <i class='fab fa-twitter' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                    <i class='fab fa-facebook-f' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                    <i class='fab fa-linkedin-in' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="w-100 px-5 mt-5">
+                                <div class=" pointer">
+                                    <img src="assets/Layer5.jpg" src="Not found" class="w-100 mb-5">
+                                </div>
+                                <div>
+                                    <h1 class="name fweight700">Brandon Wulf</h1>
+                                    <h2 class="post fweight700">
+                                        LEGAL & FINANCE 
+                                    </h2>
+                                    <p class="aboutname text-justify">Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras ornare, augue sit amet varius mollis, lacus dui laoreet </p>
+                                </div>
+                                <div class="d-flex">
+                                    <i class='fab fa-twitter' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                    <i class='fab fa-facebook-f' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                    <i class='fab fa-linkedin-in' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="w-100 px-5 mt-5">
+                                <div class=" pointer">
+                                    <img src="assets/Layer6.jpg" src="Not found" class="w-100 mb-5">
+                                </div>
+                                <div>
+                                    <h1 class="name fweight700">Aaron Smith</h1>
+                                    <h2 class="post fweight700">Front-end Developer </h2>
+                                    <p class="aboutname text-justify">Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras ornare, augue sit amet varius mollis, lacus dui laoreet </p>
+                                </div>
+                                <div class="d-flex marginbottom">
+                                    <i class='fab fa-twitter' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                    <i class='fab fa-facebook-f' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                    <i class='fab fa-linkedin-in' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-lg mt-5 pt-5">
+                        <div class="text-center">
+                            <h1 class="amazing">OUR HELPING</h1>
+                            <h2 class="team">Advisors</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="w-100 px-3 mt-5">
+                                    <div class="pointer">
+                                        <img src="assets/Layer7.jpg" src="Not found" class="w-100 mb-5">
+                                    </div>
+                                    <div>
+                                        <h1 class="name">
+                                            Patricia Bright
+                                        </h1>
+                                        <h2 class="post">BOARD ADVISOR</h2>
+                                        <p class="width">Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras ornare, augue sit amet varius mollis, lacus dui laoreet </p>
+                                    </div>
+                                    <div class="d-flex marginbottom">
+                                        <i class='fab fa-twitter' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                        <i class='fab fa-facebook-f' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                        <i class='fab fa-linkedin-in' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 advisors">
+                                <div class="w-100 px-3 mt-5">
+                                    <div class=" pointer">
+                                        <img src="assets/Layer8.jpg" src="Not found" class="w-100 mb-5">
+                                    </div>
+                                    <div>
+                                        <h1 class="name">
+                                            Patricia Bright
+                                        </h1>
+                                        <h2 class="post">BOARD ADVISOR</h2>
+                                        <p class="width">Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras ornare, augue sit amet varius mollis, lacus dui laoreet </p>
+                                    </div>
+                                    <div class="d-flex marginbottom">
+                                        <i class='fab fa-twitter'id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                        <i class='fab fa-facebook-f'id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                        <i class='fab fa-linkedin-in'id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 advisors">
+                                <div class="w-100 px-3 mt-5">
+                                    <div class="pointer">
+                                        <img src="assets/Layer9.jpg" src="Not found" class="w-100 mb-5">
+                                    </div>
+                                    <div>
+                                        <h1 class="name">
+                                            Patricia Bright
+                                        </h1>
+                                        <h2 class="post">BOARD ADVISOR</h2>
+                                        <p class="width">Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras ornare, augue sit amet varius mollis, lacus dui laoreet </p>
+                                    </div>
+                                    <div class="d-flex marginbottom">
+                                        <i class='fab fa-twitter' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                        <i class='fab fa-facebook-f' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                        <i class='fab fa-linkedin-in' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 advisors">
+                                <div class="w-100 px-3 mt-5">
+                                    <div class="pointer">
+                                        <img src="assets/Layer10.jpg" src="Not found" class="w-100 mb-5">
+                                    </div>
+                                    <div>
+                                        <h2 class="name">
+                                            Patricia Bright
+                                        </h2>
+                                        <h1 class="post">BOARD ADVISOR</h1>
+                                        <p class="width">Nam ut lectus et purus suscipit ultricies. Nam vulputate lobortis odio ac egestas. Cras ornare, augue sit amet varius mollis, lacus dui laoreet </p>
+                                    </div>
+                                    <div class="d-flex marginbottom">
+                                        <i class='fab fa-twitter' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                        <i class='fab fa-facebook-f' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                        <i class='fab fa-linkedin-in' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 15px'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="part1 settwo">
+                <div class="container-fluid px-5">
+                    <div class="mx-5">
+                        <div class="text-left left pb-5">
+                            <h3 class="publish text-light">Publications <span class="partners fsize14">AND PARTNERS</span></h3>
+                        </div>
+                        <div class="row quotes py-4">
+                            <div class="col-md-4">
+                                <div class="d-flex pt-4">
+                                    <div>
+                                        <i class='fas fa-quote-right' id="quoteright"  style="margin-top: 30px;
+                                        margin-right: 21px;
+                                        color: #cccccc;
+                                        font-size: 24px;"></i>
+                                    </div>
+                                    <img src="assets/Group2.jpg" src="Not found" class="layer3 me-5">
+                                    <div>
+                                        <h1 class="nativecoin">Native Coin</h1>
+                                        <p class="news">News agency</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <p class="para pt-4">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus elit aliquam facilisis pharetra. Aenean consectetur lacinia diam a tincidunt. Vivamus facilisis lacus non velit suscipit pellentesque. Nam ac mauris nec mi lobortis sollicitudin sed at lacus. Fusce volutpat, dolor in suscipit pharetra, lacus sapien sollicitudin quam, non aliquam ex neque eu lectus. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row quotes py-4">
+                            <div class="col-md-4">
+                                <div class="d-flex pt-4">
+                                    <div>
+                                        <i class='fas fa-quote-right' id="quoteright" style="margin-top: 30px;
+                                        margin-right: 21px;
+                                        color: #cccccc;
+                                        font-size: 24px;"></i>
+                                    </div>
+                                    <img src="assets/Group3.jpg" src="Not found" class="layer3 me-5">
+                                    <div>
+                                        <h1 class="nativecoin">Cryptic News</h1>
+                                        <p class="news">Blog</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <p class="para pt-4">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus elit aliquam facilisis pharetra. Aenean consectetur lacinia diam a tincidunt. Vivamus facilisis lacus non velit suscipit pellentesque. Nam ac mauris nec mi lobortis sollicitudin sed at lacus. Fusce volutpat, dolor in suscipit pharetra, lacus sapien sollicitudin quam, non aliquam ex neque eu lectus. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bottom d-flex">
+                            <img src="assets/bottom1.png"  src="Not found" class="bottom1">>
+                            <img src="assets/bottom2.png"  src="Not found" class="bottom2">
+                            <img src="assets/bottom3.png"  src="Not found" class="bottom3">
+                            <img src="assets/bottom4.png"  src="Not found" class="bottom4">
+                            <img src="assets/bottom5.png"  src="Not found" class="bottom5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="part1 setone">
+                <div class="container-fluid">
+                    <div class="px-5">
+                        <div class="text-center">
+                            <h1 class="amazing">READ OUR</h1>
+                            <h2 class="team">Market News</h2>
+                        </div>
+                        <div class="row mb-5 pb-4">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="d-flex">
+                                    <div class="news pe-5 position-relative">
+                                        <div class="number text-center">
+                                            01
+                                        </div>
+                                        <div class="one position-absolute">
+                                            1
+                                        </div>
+                                        <div>
+                                            <p class="month">SEP</p>
+                                        </div>
+                                    </div>
+                                    <div class="pe-5">
+                                        <div class="newsdata">
+                                            <h3 class="newshead text-light"> 
+                                                Bitcoin, Ethereum and Ripple Trimming Gains
+                                            </h3>
+                                            <p class="newspara">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque condimentum a elit in sollicitudin. Donec eu ipsum luctus, aliquam augue eu, pretium dolor. In pharetra auctor dapibus.Morbi diam nibh, venenatis ac arcu vitae, feugiat lobortis sapien. Duis euismod orci in convallis condimentum. Suspendisse id leo…
+                                            </p>
+                                        </div>
+                                        <div class="salestag py-3">
+                                            <i class="fa fa-tag" id="tag" style="font-size: 18px; padding-right: 10px;"></i>SALES
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="d-flex">
+                                    <div class="news pe-5 position-relative">
+                                        <div class="number text-center">
+                                            04
+                                        </div>
+                                        <div class="one position-absolute">
+                                            0
+                                        </div>
+                                        <div>
+                                            <p class="month">JUN</p>
+                                        </div>
+                                    </div>
+                                    <div class="pe-5">
+                                        <div class="newsdata">
+                                            <h3 class="newshead text-light"> 
+                                                Bitcoin and Altcoins Primed for Further Gains
+                                            </h3>
+                                            <p class="newspara">
+                                                Curabitur hendrerit viverra orci et bibendum. Sed volutpat nisi a mi rutrum pharetra. Morbi quis augue ut neque facilisis malesuada. Pellentesque eget tellus sagittis, maximus ligula ut, sodales enim. Sed tortor neque, sollicitudin suscipit lacus eu, tincidunt dapibus orci. Fusce euismod sem tempor bibendum finibus….
+                                            </p>
+                                        </div>
+                                        <div class="salestag py-3">
+                                            <i class="fa fa-tag" id="tag" style="font-size: 18px; padding-right: 10px;"></i>BITCOIN, SALES
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="d-flex newspadding">
+                                    <div class="news pe-5 position-relative">
+                                        <div class="number text-center">
+                                            25
+                                        </div>
+                                        <div class="one position-absolute">
+                                            0
+                                        </div>
+                                        <div>
+                                            <p class="month">MAY</p>
+                                        </div>
+                                    </div>
+                                    <div class="pe-5">
+                                        <div class="newsdata">
+                                            <h3 class="newshead text-light"> 
+                                                Bahamas Looking to Enable Blockchain-powered Undersea Exploration
+                                            </h3>
+                                            <p class="newspara">
+                                                Vivamus luctus tincidunt metus, ut condimentum ligula molestie sit amet. Nullam pulvinar ultrices lorem in rutrum. Sed vehicula, quam sed maximus venenatis, mauris magna malesuada nisi, iaculis tincidunt turpis elit eget velit. Etiam a turpis ornare, aliquet erat a, malesuada felis. Nulla eget velit et…
+                                            </p>
+                                        </div>
+                                        <div class="salestag py-3">
+                                            <i class="fa fa-tag" id="tag" style="font-size: 18px; padding-right: 10px;"></i>NEWS, SALES
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="d-flex newspadding">
+                                    <div class="news pe-5 position-relative">
+                                        <div class="number text-center">
+                                            08
+                                        </div>
+                                        <div class="one position-absolute">
+                                            0
+                                        </div>
+                                        <div>
+                                            <p class="month">MAY</p>
+                                        </div>
+                                    </div>
+                                    <div class="pe-5">
+                                        <div class="newsdata">
+                                            <h3 class="newshead text-light"> 
+                                                What Has Been Happening with Ethereum in 2018?
+                                            </h3>
+                                            <p class="newspara fweight400 fsize15">
+                                                Morbi non nulla consequat, dictum massa nec, euismod sapien. Duis sit amet euismod massa. Vivamus luctus tincidunt metus, ut condimentum ligula molestie sit amet. Nullam pulvinar ultrices lorem in rutrum. Sed vehicula, quam sed maximus venenatis, mauris magna malesuada nisi, iaculis tincidunt turpis elit eget…
+                                            </p>
+                                        </div>
+                                        <div class="salestag py-3">
+                                            <i class="fa fa-tag" id="tag" style="font-size: 18px; padding-right: 10px;"></i>NEWS
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="d-flex newspadding">
+                                    <div class="news pe-5 position-relative">
+                                        <div class="number text-center">
+                                            07
+                                        </div>
+                                        <div class="one position-absolute">
+                                            0
+                                        </div>
+                                        <div>
+                                            <p class="month">MAY</p>
+                                        </div>
+                                    </div>
+                                    <div class="pe-5">
+                                        <div class="newsdata">
+                                            <h3 class="newshead text-light"> 
+                                                MyEtherWallet DNS Hack
+                                            </h3>
+                                            <p class="newspara">
+                                                Duis scelerisque venenatis imperdiet. Phasellus iaculis odio in orci placerat, sit amet faucibus libero euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi…
+                                            </p>
+                                        </div>
+                                        <div class="salestag py-3">
+                                            <i class="fa fa-tag" id="tag" style="font-size: 18px; padding-right: 10px;"></i>TIPS & TRICKS
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="d-flex newspadding">
+                                    <div class="news pe-5 position-relative">
+                                        <div class="number text-center">
+                                            06
+                                        </div>
+                                        <div class="one position-absolute">
+                                            0
+                                        </div>
+                                        <div>
+                                            <p class="month">MAY</p>
+                                        </div>
+                                    </div>
+                                    <div class="pe-5">
+                                        <div class="newsdata">
+                                            <h3 class="newshead text-light"> 
+                                                As with any other type of money, there are specific issues Bitcoin users need to know about in order to keep their funds safe.
+                                            </h3>
+                                            <p class="newspara">
+                                                Robert Brarult
+                                            </p>
+                                        </div>
+                                        <div class="salestag py-3">
+                                            <i class="fa fa-tag" id="tag" style="font-size: 18px; padding-right: 10px;"></i>BITCOIN, NEWS, SALES
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="position-relative">
+                <img src="assets/Rectangle.jpg" alt="Not Found" class="w-100 backimage">
+                <div class="position-absolute bottomform w-100">
+                    <h2 class="latest mt-5 text-light text-center">
+                        Subscribe to always be up to date in our latest news!
+                    </h2>
+                    <p class="latestpara text-center">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt erat volutp
+                    </p>
+                    <div class="form text-center">
+                        <input type="email" placeholder="Enter your email.." class="emailinput">
+                        <button class="subscribe border-0">SUBSCRIBE</button>
+                    </div>
+                    <h5 class="follow text-center">Follow us on</h5>
+                    <div class="followicons d-flex">
+                        <div class="iconset">
+                            <i class='fab fa-facebook-f' id="fabicon" style='font-size:22px; color:rgb(231,231,231); padding: 15px;'></i>    
+                        </div>
+                        <div class="iconset">
+                            <i class='fab fa-twitter' id="fabicon" style='font-size:22px; color:rgb(231,231,231); padding: 15px;'></i>    
+                        </div>
+                        <div class="iconset">
+                            <i class='fab fa-linkedin-in' id="fabicon" style='font-size:22px; color:rgb(231,231,231); padding: 15px;'></i>    
+                        </div>
+                        <div class="iconset">
+                            <i class='fab fa-google-plus-g' id="fabicon" style='font-size:22px; color:rgb(231,231,231); padding: 15px;'></i>    
+                        </div>
+                        <div class="iconset">
+                            <i class='fab fa-medium-m' id="fabicon" style='font-size:22px; color:rgb(231,231,231); padding: 15px;'></i>    
+                        </div>
+                        <div class="iconset">
+                            <i class='fab fa-telegram-plane' id="fabicon" style='font-size:22px; color:rgb(231,231,231); padding: 15px;'></i>    
+                        </div>
+                    </div>
+                    <div class="container-lg px-sm-5">
+                        <div class="data mx-sm-5">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="dataset1">
+                                        <div>
+                                            <img src="assets/theme.png" alt="Not found" class="mb-4 pb-5">
+                                        </div>
+                                        <div class="dateset">
+                                            <h4 class="dates text-light">Dates:</h4>
+                                            <p class="datep">Feb 1,2018-May 1, 2018</p>
+                                        </div>
+                                        <div class="dateset">
+                                            <h4 class="dates text-light">Tokens for sale:</h4>
+                                            <p class="datep">3,000,000 out of 10,000,000 (30%)</p>
+                                        </div>
+                                        <div class="dateset">
+                                            <h4 class="dates text-light">Hard cap:</h4>
+                                            <p class="datep">10 million</p>
+                                        </div>
+                                        <div class="dateset">
+                                            <h4 class="dates text-light">Soft cap:</h4>
+                                            <p class="datep">30 million</p>
+                                        </div>
+                                        <div class="dateset">
+                                            <h4 class="dates text-light">Exchange rate:</h4>
+                                            <p class="datep">1 ETH = 3000 JVLN</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="text-left dataset2">
+                                        <h1 class="amazing">PARTICIPATE IN OUR TOKEN SALE</h1>
+                                        <h1 class="ends"><strong>ICO</strong> Ends in:</h1>
+                                        <div class="weekdata d-flex">
+                                            <div class="row ps-3 ">
+                                                <div class="col">
+                                                    <div class="week pb-1 pe-3">
+                                                        <span class="zero">00</span>
+                                                        <p class="zerodata">Weeks</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="week pb-1 pe-3">
+                                                        <span class="zero">00</span>
+                                                        <p class="zerodata">Days</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="week pb-1 pe-3">
+                                                        <span class="zero">00</span>
+                                                        <p class="zerodata">Hours</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="week pb-1 pe-3">
+                                                        <span class="zero">00</span>
+                                                        <p class="zerodata">Minutes</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="pb-1 pe-3 border-0">
+                                                        <span class="zero">00</span>
+                                                        <p class="zerodata">Seconds</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex button">
+                                            <button class="token mt-5">BUY TOKENS</button>
+                                        </div>
+                                        <div>
+                                            <h1 class="tokenprice">
+                                                Token Price: <strong>0.0003 BTC </strong>
+                                            </h1>
+                                        </div>
+                                        <h1 class="amazing">PAYMENT METHODS</h1>
+                                        <div class="d-flex pointer">
+                                            <i class="fab fa-cc-visa" id="mediaicon" style="font-size: 25px; color: #bebebe; margin: 0px 35px 0px 20px;"></i>
+                                            <i class="fab fa-cc-mastercard" id="mediaicon" style="font-size: 25px; color: #bebebe; margin-right: 35px;"></i>
+                                            <i class="fab fa-bitcoin" id="mediaicon" style="font-size: 25px; color: #bebebe; margin-right: 35px;"></i>
+                                            <i class="fab fa-paypal" id="mediaicon" style="font-size: 25px; color: #bebebe; margin-right: 35px;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="part1 settwo px-5">
+                <div class="container-fluid">
+                    <div class="row px-5">
+                        <div class="col-md-4 mt-5">
+                            <div class="footer1">
+                                <h1 class="onetext">JVLN Coin</h1>
+                                <p class="onepara">
+                                    Duis semper mauris vitae purus rhoncus suscipit. Nunc dictum dapibus tellus, at viverra risus pharetra id. Nulla facilisi. Ut mollis et augue non gravida. 
+                                </p>
+                                <div class="d-flex">
+                                    <i class='fab fa-twitter' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 30px'></i>
+                                    <i class='fab fa-facebook-f' id="iconid" style='font-size:18px; color:#8d8d8d; margin-right: 30px'></i>
+                                    <i class='fab fa-instagram' id="iconid" style='font-size:18px; color:#8d8d8d;'></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-5">
+                            <h3 class="onetext">
+                                Latest News
+                            </h3>
+                            <div class="sales me-5">
+                                <span class="salestext">SALES</span>
+                                <p class="salespara">
+                                    Bitcoin, Ethereum and Ripple Trimming Gains
+                                </p>
+                            </div>
+                            <div class="bitcoin">
+                                <span class="salestextz">BITCOIN, SALES</span>
+                                <p class="salespara">
+                                    Bitcoin, Ethereum and Ripple Trimming Gains
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="pe-5 mt-5">
+                                <h3 class="onetext">
+                                    Contacts
+                                </h3>
+                                <div class="contacts">
+                                    <div class="contactset d-flex">
+                                        <i class="far fa-map" id="fabmap" style="font-size: 18px; margin-right: 15px; color: #cccccc;"></i>                                
+                                        County, Street name - number 
+                                    </div>
+                                    <div class="contactset d-flex">
+                                        <i class="fas fa-phone-alt" id="fabmap" style="font-size: 18px; margin-right: 15px; color: #cccccc;"></i>                                
+                                        032 267 899 442 
+                                    </div>
+                                    <div class="contactset d-flex">
+                                        <i class="far fa-envelope" id="fabmap" style="font-size: 18px; margin-right: 15px; color: #cccccc;"></i>                                
+                                        company@name.com 
+                                    </div>
+                                    <div class="contactset d-flex">
+                                        <i class="far fa-clock" id="fabmap" style="font-size: 18px; margin-right: 15px; color: #cccccc;"></i>                                
+                                        Mon.-Fri.: 10-20 Sun.: 12-16 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerbottom">
+                <p class="text-center">
+                    WordPress Theme built by <b class="boldtext">Shufflehound</b>
+                </p>
             </div>
         </div>
     </body>
