@@ -758,6 +758,10 @@
         display: none;
     }
 
+    .sidenavbar {
+        top: 90px;
+    }
+
     .backimage {
         height: 1860px;
     }
