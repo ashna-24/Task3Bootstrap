@@ -78,10 +78,8 @@
     border-radius: 10px;
     background-color: #f3ba40;
     color: #353535;
-    border: none;
     box-shadow: 0 6px 40px rgb(0 0 0 / 25%);
     padding: 16px 36px;
-    margin-right: 40px;
 }
 
 .token:hover{
@@ -147,7 +145,6 @@
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
-    color: #ffffff;
 }
 
 .rowsettwo{
@@ -165,7 +162,6 @@
 
 .smart{
     font-size: 20px;
-    color: #ffffff;
     margin-top: 20px;
     font-weight: 400;
 }
@@ -192,7 +188,6 @@
 .tokn{
     line-height: 36px;
     margin-bottom: 50px;
-    color: #ffffff;
     font-weight: 700;
     font-size: 30px;
 }
@@ -212,7 +207,6 @@
 .community{
     font-size: 16px;
     font-weight: 700;
-    color: #ffffff;
 }
 
 .percentage{
@@ -259,7 +253,6 @@
 .roadmap{
     line-height: 36px;
     margin-bottom: 50px;
-    color: #ffffff;
     font-size: 30px; 
     padding-left: 160px;
     font-weight: 700;
@@ -273,12 +266,10 @@
     margin-bottom: 7px;
     font-size: 18px;
     font-weight: 700;
-    color: #ffffff;
 }
 
 .roadmapp{
     font-size: 13px;
-    color: #ffffff;
 }
 
 .roadp{
@@ -300,11 +291,9 @@
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
-    color: #ffffff;
 }
 
 .name{
-    color: #ffffff;
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 12px;
@@ -664,6 +653,10 @@
 
 .border{
     border-radius: 25px;
+}
+
+.border:hover{
+    background-color: #ea9322;
 }
 
 @media  screen and (max-width:320px) and (min-width: 150px){
