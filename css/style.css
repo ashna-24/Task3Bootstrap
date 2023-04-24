@@ -659,7 +659,7 @@
     background-color: #ea9322;
 }
 
-@media  screen and (max-width:320px) and (min-width: 150px){
+@media screen and (max-width:320px) and (min-width: 150px){
     .project{
         font-size: 35px;
     }
@@ -678,6 +678,39 @@
 
     .roadp{
         width: auto;
+    }
+
+    .wallet {
+        height: 414px;
+    }
+
+    .backimage{
+        height: 1930px;
+    }
+
+    .dataset2 {
+        padding: 80px 27px;
+    }
+
+    .bottom1 {
+        padding: 0px;
+        margin-right: 0px;
+    }
+
+    .onepara {
+        padding: 0px 45px 15px 0px;
+    }
+
+    .nativecoin {
+        width: auto;
+    }
+
+    .backgroundimg{
+        height: 1200px;
+    }
+
+    .wallet {
+        padding: 40px 0px 40px 10px;
     }
 
     .padding{
@@ -738,9 +771,13 @@
         font-size: 32px;
     }
 
-    .followicons {
-        margin: 0px 0px 100px 190px;
+    .emailinput{
+        width: auto;
     }
+
+    /* .followicons {
+        margin: 0px 0px 100px 190px;
+    } */
 
     .latestpara {
         font-size: 17px;
