@@ -680,6 +680,10 @@
         width: auto;
     }
 
+    .dataset1 {
+        padding: 90px 35px 90px 35px;
+    }
+
     .wallet {
         height: 414px;
     }
@@ -775,9 +779,9 @@
         width: auto;
     }
 
-    /* .followicons {
-        margin: 0px 0px 100px 190px;
-    } */
+    .followicons {
+        margin: 0px 0px 100px 200px;
+    }
 
     .latestpara {
         font-size: 17px;
