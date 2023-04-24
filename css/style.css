@@ -777,6 +777,26 @@
         display: none;
     }
 
+    .backimage{
+        height: 1330px;
+    }
+
+    .latest {
+        padding: 20px 105px;
+    }
+
+    .followicons {
+        margin: 0px 0px 100px 315px;
+    }
+
+    .latestpara {
+        padding: 0px 145px;
+    }
+
+    .dataset1 {
+        padding: 134px 80px 134px 90px;
+    }
+
     .bottom5{
         display: none;
     }
